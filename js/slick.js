@@ -1,5 +1,5 @@
 $(function () {
-  $(".w-e-gallery-list").slick({
+  $(".w-t-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -11,13 +11,13 @@ $(function () {
     centerMode: true,
     focusOnSelect: true,
     cssEase: "linear",
-    prevArrow: ".w-e-gallery-list-left",
-    nextArrow: ".w-e-gallery-list-right",
+    prevArrow: ".w-t-gallery-list-left",
+    nextArrow: ".w-t-gallery-list-right",
   });
 });
 
 $(function () {
-  $(".w-e-reviews-list").slick({
+  $(".w-t-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,7 +27,22 @@ $(function () {
     speed: 1000,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".w-e-reviews-list-left",
-    nextArrow: ".w-e-reviews-list-right",
+    prevArrow: ".w-t-reviews-list-left",
+    nextArrow: ".w-t-reviews-list-right",
+  });
+});
+$(function () {
+  $(".w-t-how-list").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    speed: 1000,
+    centerMode: true,
+    cssEase: "linear",
+    prevArrow: ".w-t-how-list-left",
+    nextArrow: ".w-t-how-list-right",
   });
 });
